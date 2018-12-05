@@ -1,0 +1,68 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	margin: 0;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+button {
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 45px;
+  width: 400px;
+  background-color: #685E5B;
+  color: white;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#description {
+	position: relative;
+	top: 30px;
+	color: white;
+	text-align: center;
+}
+
+#game-buttons{
+	margin: 0 auto 5px auto;
+	padding: 10px;
+	position: relative;
+	top: 800px;
+
+}
+
+#inventoryItem {
+	position: absolute;
+	right: 120px;
+	height: 100px;
+	width: auto;
+	top: 700px;
+	background: black;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+
+img {
+	position: relative;
+	height: 700px;
+	width: 1600px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+}
+
+#title{
+  position: relative;
+  top: 25px;
+}
